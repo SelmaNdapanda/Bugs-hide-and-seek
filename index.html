@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selma Hamutenya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.9/js/dataTables.bootstrap.min.js"></script>  
+</head>
+
+<body>
+    <!--Toolbar Section-->
+    <header class="navigation">
+      <a href="" class="logo">
+        Selma Hamutenya
+      </a>
+      <div id="union" class="burger fas fa-bars"></div>
+      <nav class="menu">
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+      <ul class="desktop-menu">
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!--Headline Section-->
+
+    <main class="main">
+    <section class="headline"> 
+      <div class="headline-text">
+        <h1 class="primary1">I'm Selma, <br> Glad to see you</h1>
+        
+        <p>I’m a software developer!
+            I can help you build a product , 
+            feature or website Look through some 
+            of my work and experience! If you like 
+            what you see and have a project you need coded,
+            don’t hesitate to contact me.
+        </p>
+      </div>
+      <div class="social-media">
+        <p> LET'S CONNECT</p>
+        <ul class="social-media-icons"> 
+          <li><a href=""><img src="images/twitter.png" class="twitter" alt="twitter"></a></li>
+          <li><a href=""><img src="images/Linkedin-icon.png" class="linkedin" alt="linkedin"></a></li>
+          <li><a href=""><img src="images/M-vector.png" class="m-vector" alt="medium"></a></li>
+          <li><a href=""><img src="images/github.png" class="github" alt="github"></a></li>
+          <li><a href=""><img src="images/Fing-vector.png" class="fing-vector" alt="angellist"></a></li>
+        </ul>
+      </div>
+    </section>
+  
+
+    <!--Works Section-->
+    <section class="works" id="Portfolio"></section>
+
+    <!-- Details Popup Window -->
+    <div class="bg-modal"></div>
+
+    <!--About-Section-->
+    <section class="about" id="About">
+      <div class="top">
+        <h2 class="about-title">About <br> Myself</h2>
+        <p class="hello">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have
+                a project you need coded, don’t hestitate to contact me.</p>
+        <div class="Social-media-layout">
+          <p class="social-media-connect">LET'S CONNECT</p> 
+          <ul class="social-media-icons">
+            <li><a href=""><img src="images/twitter.png" class="twitter" alt="twitter"></a></li>
+            <li><a href=""><img src="images/Linkedin-icon.png" class="linkedin" alt="linkedin"></a></li>
+            <li><a href=""><img src="images/M-vector.png" class="m-vector" alt="medium"></a></li>
+            <li><a href=""><img src="images/github.png" class="github" alt="github"></a></li>
+            <li><a href=""><img src="images/Fing-vector.png" class="fing-vector" alt="angellist"></a></li>
+          </ul>
+        </div> 
+        <button type="button" class="about-btn">Get My Resume</button>
+      </div>
+      <div class="skills-list">
+        <div class="frame-languages">
+          <ul   class="languages">
+            <li class="lang">Languages</li>
+            <li class="arrow">
+              <img src="images/down-arrow.png" alt="down-arrow" class="down-arrow"/>
+            </li>
+          </ul>
+          <ul class="frame2">
+            <li class="language1 list">
+              <img src="images/js-icon.png" class="javascript" alt="javascript" />
+              <p class="language">Javascript</p>
+            </li>
+            <li class="language1 list">
+              <img src="images/html-icon.png" class="html" alt="HTML5" />
+              <p class="language">HTML</p>
+            </li>
+            <li class="language1 list">
+              <img src="images/css-icon.png" class="css" alt="CSS" />
+              <p class="language">CSS</p>
+            </li>
+          </ul>
+        </div>
+        <div class="frame-frameworks">
+          <ul class="frameworks">
+            <li class="lang">Frameworks</li>
+            <li class="arrow">
+              <img src="images/right-arrow.png" alt="right-arrow"/>
+            </li>
+          </ul>
+        </div>
+        <hr class="solid" />
+        <div class="frame-skills">
+          <ul class="skills">
+            <li class="lang">Skills</li>
+            <li class="arrow">
+              <img src="images/right-arrow.png" alt="right-arrow" class="skills-arrow"/>
+            </li>
+          </ul>
+        </div>
+        <hr class="solid" />
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="contact" id="Contact">
+      <h2 class="contact-title">Contact me</h2>
+      <p class="contact-description">If you have an application you are interested in developing, a feature that you need
+          built or a project that needs coding. I'd love to help with it </p>
+    <form action="https://formspree.io/f/xwkydypy" id="form" class="contact-form" method="post" novalidate>
+      <ul class="inner-list">
+        <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30" required>
+        </li>
+        <li><input type="email" class="form-control" name="email" id="email" placeholder="Email address" required>
+        </li>
+        <li><textarea name="text" class="form-control" id="text" placeholder="Message" maxlength="500" required></textarea></li>
+        <li><span class="error" aria-live="polite"></span></li>
+        <li class="flex-item6" id="submit-btn"><button type="submit" id="submit-b">Get In Touch</button></li>
+      </ul>
+    </form>
+    <div class="shape"><img src="./images/Shape.png" alt="shape"></div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
